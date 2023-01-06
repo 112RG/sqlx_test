@@ -8,6 +8,6 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.65"
 sqlx = { version = "0.6.2", features = [ "runtime-tokio-rustls", "sqlite", "migrate", "macros" ] }
-tokio = { version = "1.20.0", features = ["full"] }
+tokio = { version = "1.23.1", features = ["full"] }
 walkdir = "2.3.2"
 chrono = "0.4.19"
